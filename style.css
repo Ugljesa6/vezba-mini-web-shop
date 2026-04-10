@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    background-color: #e6f0ff;            /* svetlo plavo */
+}
+
+/* NAVBAR */
+nav {
+    background-color: #002b5c;           /* tamno plavo */
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    margin: 15px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+nav a:hover {
+    color: #ffb6a3;                     /* breskva-roze */
+}
+
+/* NASLOVI */
+h1 {
+    color: #002b5c;
+}
+
+/* PROIZVODI */
+.product {
+    background: white;
+    padding: 20px;
+    margin: 20px;
+    display: inline-block;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    width: 200px;
+}
+
+.product img {
+    border-radius: 10px;
+}
+
+/* DUGME */
+button {
+    background-color: #ffb6a3; /* breskva-roze */
+    border: none;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #ff8c73;
+}
